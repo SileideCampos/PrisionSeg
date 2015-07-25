@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BroadcastPhoneStates"
+    android:backgroundTintMode="screen"
+    android:touchscreenBlocksFocus="true"
+    android:longClickable="true">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="85dp"
+        android:fastScrollEnabled="true"
+        android:fastScrollAlwaysVisible="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/textView"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
